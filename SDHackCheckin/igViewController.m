@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 Infragistics. All rights reserved.
 //
 
-#import "ConfirmationViewController.h"
 #import <AVFoundation/AVFoundation.h>
 #import "igViewController.h"
+#import "LoginViewController.h"
 
 @interface igViewController () <AVCaptureMetadataOutputObjectsDelegate,UIAlertViewDelegate>
 {
@@ -20,7 +20,9 @@
     PFObject *_student;
     UIView *_highlightView;
     UILabel *_label;
+    UIButton *_logout;
     CGRect highlightViewRect;
+    __weak IBOutlet UINavigationItem *NavigationBar;
 }
 @end
 
@@ -39,12 +41,23 @@
     [self.view addSubview:_highlightView];
 
     _label = [[UILabel alloc] init];
-    _label.frame = CGRectMake(0, self.view.bounds.size.height - 40, self.view.bounds.size.width, 40);
+    _label.frame = CGRectMake(0, self.view.bounds.size.height - 80, self.view.bounds.size.width, 40);
     _label.autoresizingMask = UIViewAutoresizingFlexibleTopMargin;
     _label.backgroundColor = [UIColor colorWithWhite:0.15 alpha:0.65];
     _label.textColor = [UIColor whiteColor];
     _label.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:_label];
+    
+    _logout = [[UIButton alloc] init];
+    _logout.frame = CGRectMake(0, self.view.bounds.size.height - 40, self.view.bounds.size.width, 40);
+    _logout.autoresizingMask = UIViewAutoresizingFlexibleTopMargin;
+    _logout.backgroundColor = [UIColor colorWithWhite:0.8 alpha:0.65];
+    [_logout setTitle:@"Log Out" forState:UIControlStateNormal];
+    [_logout setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    [_logout addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
+
+    [self.view addSubview:_logout];
+    
     [self startScanning];
     }
 
@@ -77,6 +90,7 @@
     
     [self.view bringSubviewToFront:_highlightView];
     [self.view bringSubviewToFront:_label];
+    [self.view bringSubviewToFront:_logout];
 
 }
 
@@ -159,6 +173,9 @@
                                      [student incrementKey:@"Checkin"];
                                      [student saveInBackground];
                                  }];
+}
+- (void)back {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end

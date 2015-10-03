@@ -10,9 +10,10 @@
 		BBD4ED6651A7DA9292AD49C1 /* libPods-SDHackCheckin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31799AE0A8A6589F6F9AA784 /* libPods-SDHackCheckin.a */; };
 		C431D3E81BBFAA2B005C0085 /* igViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C431D3E71BBFAA2B005C0085 /* igViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C431D3EB1BBFAF3E005C0085 /* ConfirmationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C431D3EA1BBFAF3E005C0085 /* ConfirmationViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C431D3EE1BBFD444005C0085 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C431D3ED1BBFD444005C0085 /* LoginViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C431D3F11BBFD745005C0085 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C431D3F01BBFD745005C0085 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C48ACE401BBF91960060FFC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C48ACE3F1BBF91960060FFC9 /* main.m */; };
 		C48ACE431BBF91960060FFC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C48ACE421BBF91960060FFC9 /* AppDelegate.m */; };
-		C48ACE461BBF91960060FFC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C48ACE451BBF91960060FFC9 /* ViewController.m */; };
 		C48ACE491BBF91960060FFC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48ACE471BBF91960060FFC9 /* Main.storyboard */; };
 		C48ACE4B1BBF91970060FFC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C48ACE4A1BBF91970060FFC9 /* Assets.xcassets */; };
 		C48ACE4E1BBF91970060FFC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48ACE4C1BBF91970060FFC9 /* LaunchScreen.storyboard */; };
@@ -45,12 +46,14 @@
 		C431D3E71BBFAA2B005C0085 /* igViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = igViewController.m; sourceTree = "<group>"; };
 		C431D3E91BBFAF3E005C0085 /* ConfirmationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmationViewController.h; sourceTree = "<group>"; };
 		C431D3EA1BBFAF3E005C0085 /* ConfirmationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfirmationViewController.m; sourceTree = "<group>"; };
+		C431D3EC1BBFD444005C0085 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		C431D3ED1BBFD444005C0085 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		C431D3EF1BBFD745005C0085 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C431D3F01BBFD745005C0085 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C48ACE3B1BBF91960060FFC9 /* SDHackCheckin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDHackCheckin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C48ACE3F1BBF91960060FFC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C48ACE411BBF91960060FFC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C48ACE421BBF91960060FFC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C48ACE441BBF91960060FFC9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C48ACE451BBF91960060FFC9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C48ACE481BBF91960060FFC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C48ACE4A1BBF91970060FFC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C48ACE4D1BBF91970060FFC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -133,10 +136,12 @@
 			children = (
 				C48ACE411BBF91960060FFC9 /* AppDelegate.h */,
 				C48ACE421BBF91960060FFC9 /* AppDelegate.m */,
-				C48ACE441BBF91960060FFC9 /* ViewController.h */,
-				C48ACE451BBF91960060FFC9 /* ViewController.m */,
+				C431D3EC1BBFD444005C0085 /* LoginViewController.h */,
+				C431D3ED1BBFD444005C0085 /* LoginViewController.m */,
 				C48ACE471BBF91960060FFC9 /* Main.storyboard */,
 				C431D3E91BBFAF3E005C0085 /* ConfirmationViewController.h */,
+				C431D3EF1BBFD745005C0085 /* ViewController.h */,
+				C431D3F01BBFD745005C0085 /* ViewController.m */,
 				C431D3EA1BBFAF3E005C0085 /* ConfirmationViewController.m */,
 				C431D3E61BBFAA2B005C0085 /* igViewController.h */,
 				C431D3E71BBFAA2B005C0085 /* igViewController.m */,
@@ -342,8 +347,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C431D3F11BBFD745005C0085 /* ViewController.m in Sources */,
 				C431D3E81BBFAA2B005C0085 /* igViewController.m in Sources */,
-				C48ACE461BBF91960060FFC9 /* ViewController.m in Sources */,
+				C431D3EE1BBFD444005C0085 /* LoginViewController.m in Sources */,
 				C48ACE431BBF91960060FFC9 /* AppDelegate.m in Sources */,
 				C48ACE401BBF91960060FFC9 /* main.m in Sources */,
 				C431D3EB1BBFAF3E005C0085 /* ConfirmationViewController.m in Sources */,
