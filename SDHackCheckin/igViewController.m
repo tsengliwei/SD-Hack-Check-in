@@ -97,7 +97,7 @@
             break;
         }
         else
-            _label.text = @"(none)";
+            _label.text = @"Scanning";
     }
 
     _highlightView.frame = highlightViewRect;
