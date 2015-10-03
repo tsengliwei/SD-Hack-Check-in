@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BBD4ED6651A7DA9292AD49C1 /* libPods-SDHackCheckin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31799AE0A8A6589F6F9AA784 /* libPods-SDHackCheckin.a */; };
 		C48ACE401BBF91960060FFC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C48ACE3F1BBF91960060FFC9 /* main.m */; };
 		C48ACE431BBF91960060FFC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C48ACE421BBF91960060FFC9 /* AppDelegate.m */; };
 		C48ACE461BBF91960060FFC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C48ACE451BBF91960060FFC9 /* ViewController.m */; };
@@ -35,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		31799AE0A8A6589F6F9AA784 /* libPods-SDHackCheckin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDHackCheckin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		537878E585895BC773934662 /* Pods-SDHackCheckin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDHackCheckin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDHackCheckin/Pods-SDHackCheckin.debug.xcconfig"; sourceTree = "<group>"; };
+		86954D6792F0BC04B9D83C66 /* Pods-SDHackCheckin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDHackCheckin.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDHackCheckin/Pods-SDHackCheckin.release.xcconfig"; sourceTree = "<group>"; };
 		C48ACE3B1BBF91960060FFC9 /* SDHackCheckin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDHackCheckin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C48ACE3F1BBF91960060FFC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C48ACE411BBF91960060FFC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBD4ED6651A7DA9292AD49C1 /* libPods-SDHackCheckin.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8ECF60C5056E48EF628E865B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				537878E585895BC773934662 /* Pods-SDHackCheckin.debug.xcconfig */,
+				86954D6792F0BC04B9D83C66 /* Pods-SDHackCheckin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B99CF58222D43663C14D1723 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31799AE0A8A6589F6F9AA784 /* libPods-SDHackCheckin.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C48ACE321BBF91960060FFC9 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,8 @@
 				C48ACE571BBF91970060FFC9 /* SDHackCheckinTests */,
 				C48ACE621BBF91980060FFC9 /* SDHackCheckinUITests */,
 				C48ACE3C1BBF91960060FFC9 /* Products */,
+				8ECF60C5056E48EF628E865B /* Pods */,
+				B99CF58222D43663C14D1723 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,9 +171,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C48ACE681BBF91980060FFC9 /* Build configuration list for PBXNativeTarget "SDHackCheckin" */;
 			buildPhases = (
+				871F053399C5BC9CF900A66C /* Check Pods Manifest.lock */,
 				C48ACE371BBF91960060FFC9 /* Sources */,
 				C48ACE381BBF91960060FFC9 /* Frameworks */,
 				C48ACE391BBF91960060FFC9 /* Resources */,
+				10D15B759D29BAD1F2F9734A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -267,6 +293,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10D15B759D29BAD1F2F9734A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SDHackCheckin/Pods-SDHackCheckin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		871F053399C5BC9CF900A66C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C48ACE371BBF91960060FFC9 /* Sources */ = {
@@ -412,6 +471,7 @@
 		};
 		C48ACE691BBF91980060FFC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 537878E585895BC773934662 /* Pods-SDHackCheckin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SDHackCheckin/Info.plist;
@@ -423,6 +483,7 @@
 		};
 		C48ACE6A1BBF91980060FFC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86954D6792F0BC04B9D83C66 /* Pods-SDHackCheckin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SDHackCheckin/Info.plist;
@@ -499,6 +560,7 @@
 				C48ACE6A1BBF91980060FFC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C48ACE6B1BBF91980060FFC9 /* Build configuration list for PBXNativeTarget "SDHackCheckinTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +569,7 @@
 				C48ACE6D1BBF91980060FFC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C48ACE6E1BBF91980060FFC9 /* Build configuration list for PBXNativeTarget "SDHackCheckinUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +578,7 @@
 				C48ACE701BBF91980060FFC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
