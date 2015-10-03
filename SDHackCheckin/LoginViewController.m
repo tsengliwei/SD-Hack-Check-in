@@ -18,7 +18,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.username.delegate = self;
+    self.password.delegate = self;
     self.password.secureTextEntry = YES;
+}
+
+-(BOOL) textFieldShouldReturn:(UITextField *)textField{
+    
+    [textField resignFirstResponder];
+    return YES;
 }
 
 - (void)didReceiveMemoryWarning {

@@ -12,6 +12,7 @@
 		C431D3EB1BBFAF3E005C0085 /* ConfirmationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C431D3EA1BBFAF3E005C0085 /* ConfirmationViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C431D3EE1BBFD444005C0085 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C431D3ED1BBFD444005C0085 /* LoginViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C431D3F11BBFD745005C0085 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C431D3F01BBFD745005C0085 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C431D3F31BBFE910005C0085 /* Sign In Button.png in Resources */ = {isa = PBXBuildFile; fileRef = C431D3F21BBFE910005C0085 /* Sign In Button.png */; settings = {ASSET_TAGS = (); }; };
 		C48ACE401BBF91960060FFC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C48ACE3F1BBF91960060FFC9 /* main.m */; };
 		C48ACE431BBF91960060FFC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C48ACE421BBF91960060FFC9 /* AppDelegate.m */; };
 		C48ACE491BBF91960060FFC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48ACE471BBF91960060FFC9 /* Main.storyboard */; };
@@ -50,6 +51,7 @@
 		C431D3ED1BBFD444005C0085 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		C431D3EF1BBFD745005C0085 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C431D3F01BBFD745005C0085 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C431D3F21BBFE910005C0085 /* Sign In Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sign In Button.png"; path = "../../../Downloads/Sign In Button.png"; sourceTree = "<group>"; };
 		C48ACE3B1BBF91960060FFC9 /* SDHackCheckin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDHackCheckin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C48ACE3F1BBF91960060FFC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C48ACE411BBF91960060FFC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				C431D3EC1BBFD444005C0085 /* LoginViewController.h */,
 				C431D3ED1BBFD444005C0085 /* LoginViewController.m */,
 				C48ACE471BBF91960060FFC9 /* Main.storyboard */,
+				C431D3F21BBFE910005C0085 /* Sign In Button.png */,
 				C431D3E91BBFAF3E005C0085 /* ConfirmationViewController.h */,
 				C431D3EF1BBFD745005C0085 /* ViewController.h */,
 				C431D3F01BBFD745005C0085 /* ViewController.m */,
@@ -288,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C48ACE4E1BBF91970060FFC9 /* LaunchScreen.storyboard in Resources */,
+				C431D3F31BBFE910005C0085 /* Sign In Button.png in Resources */,
 				C48ACE4B1BBF91970060FFC9 /* Assets.xcassets in Resources */,
 				C48ACE491BBF91960060FFC9 /* Main.storyboard in Resources */,
 			);
