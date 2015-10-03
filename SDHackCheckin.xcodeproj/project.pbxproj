@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C48ACE401BBF91960060FFC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C48ACE3F1BBF91960060FFC9 /* main.m */; };
+		C48ACE431BBF91960060FFC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C48ACE421BBF91960060FFC9 /* AppDelegate.m */; };
+		C48ACE461BBF91960060FFC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C48ACE451BBF91960060FFC9 /* ViewController.m */; };
+		C48ACE491BBF91960060FFC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48ACE471BBF91960060FFC9 /* Main.storyboard */; };
+		C48ACE4B1BBF91970060FFC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C48ACE4A1BBF91970060FFC9 /* Assets.xcassets */; };
+		C48ACE4E1BBF91970060FFC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48ACE4C1BBF91970060FFC9 /* LaunchScreen.storyboard */; };
+		C48ACE591BBF91970060FFC9 /* SDHackCheckinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C48ACE581BBF91970060FFC9 /* SDHackCheckinTests.m */; };
+		C48ACE641BBF91980060FFC9 /* SDHackCheckinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C48ACE631BBF91980060FFC9 /* SDHackCheckinUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C48ACE551BBF91970060FFC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C48ACE331BBF91960060FFC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C48ACE3A1BBF91960060FFC9;
+			remoteInfo = SDHackCheckin;
+		};
+		C48ACE601BBF91970060FFC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C48ACE331BBF91960060FFC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C48ACE3A1BBF91960060FFC9;
+			remoteInfo = SDHackCheckin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C48ACE3B1BBF91960060FFC9 /* SDHackCheckin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDHackCheckin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C48ACE3F1BBF91960060FFC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C48ACE411BBF91960060FFC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C48ACE421BBF91960060FFC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C48ACE441BBF91960060FFC9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C48ACE451BBF91960060FFC9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C48ACE481BBF91960060FFC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C48ACE4A1BBF91970060FFC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C48ACE4D1BBF91970060FFC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C48ACE4F1BBF91970060FFC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C48ACE541BBF91970060FFC9 /* SDHackCheckinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDHackCheckinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C48ACE581BBF91970060FFC9 /* SDHackCheckinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDHackCheckinTests.m; sourceTree = "<group>"; };
+		C48ACE5A1BBF91970060FFC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C48ACE5F1BBF91970060FFC9 /* SDHackCheckinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDHackCheckinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C48ACE631BBF91980060FFC9 /* SDHackCheckinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDHackCheckinUITests.m; sourceTree = "<group>"; };
+		C48ACE651BBF91980060FFC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C48ACE381BBF91960060FFC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C48ACE511BBF91970060FFC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C48ACE5C1BBF91970060FFC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C48ACE321BBF91960060FFC9 = {
+			isa = PBXGroup;
+			children = (
+				C48ACE3D1BBF91960060FFC9 /* SDHackCheckin */,
+				C48ACE571BBF91970060FFC9 /* SDHackCheckinTests */,
+				C48ACE621BBF91980060FFC9 /* SDHackCheckinUITests */,
+				C48ACE3C1BBF91960060FFC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C48ACE3C1BBF91960060FFC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C48ACE3B1BBF91960060FFC9 /* SDHackCheckin.app */,
+				C48ACE541BBF91970060FFC9 /* SDHackCheckinTests.xctest */,
+				C48ACE5F1BBF91970060FFC9 /* SDHackCheckinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C48ACE3D1BBF91960060FFC9 /* SDHackCheckin */ = {
+			isa = PBXGroup;
+			children = (
+				C48ACE411BBF91960060FFC9 /* AppDelegate.h */,
+				C48ACE421BBF91960060FFC9 /* AppDelegate.m */,
+				C48ACE441BBF91960060FFC9 /* ViewController.h */,
+				C48ACE451BBF91960060FFC9 /* ViewController.m */,
+				C48ACE471BBF91960060FFC9 /* Main.storyboard */,
+				C48ACE4A1BBF91970060FFC9 /* Assets.xcassets */,
+				C48ACE4C1BBF91970060FFC9 /* LaunchScreen.storyboard */,
+				C48ACE4F1BBF91970060FFC9 /* Info.plist */,
+				C48ACE3E1BBF91960060FFC9 /* Supporting Files */,
+			);
+			path = SDHackCheckin;
+			sourceTree = "<group>";
+		};
+		C48ACE3E1BBF91960060FFC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C48ACE3F1BBF91960060FFC9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C48ACE571BBF91970060FFC9 /* SDHackCheckinTests */ = {
+			isa = PBXGroup;
+			children = (
+				C48ACE581BBF91970060FFC9 /* SDHackCheckinTests.m */,
+				C48ACE5A1BBF91970060FFC9 /* Info.plist */,
+			);
+			path = SDHackCheckinTests;
+			sourceTree = "<group>";
+		};
+		C48ACE621BBF91980060FFC9 /* SDHackCheckinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C48ACE631BBF91980060FFC9 /* SDHackCheckinUITests.m */,
+				C48ACE651BBF91980060FFC9 /* Info.plist */,
+			);
+			path = SDHackCheckinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C48ACE3A1BBF91960060FFC9 /* SDHackCheckin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C48ACE681BBF91980060FFC9 /* Build configuration list for PBXNativeTarget "SDHackCheckin" */;
+			buildPhases = (
+				C48ACE371BBF91960060FFC9 /* Sources */,
+				C48ACE381BBF91960060FFC9 /* Frameworks */,
+				C48ACE391BBF91960060FFC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDHackCheckin;
+			productName = SDHackCheckin;
+			productReference = C48ACE3B1BBF91960060FFC9 /* SDHackCheckin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C48ACE531BBF91970060FFC9 /* SDHackCheckinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C48ACE6B1BBF91980060FFC9 /* Build configuration list for PBXNativeTarget "SDHackCheckinTests" */;
+			buildPhases = (
+				C48ACE501BBF91970060FFC9 /* Sources */,
+				C48ACE511BBF91970060FFC9 /* Frameworks */,
+				C48ACE521BBF91970060FFC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C48ACE561BBF91970060FFC9 /* PBXTargetDependency */,
+			);
+			name = SDHackCheckinTests;
+			productName = SDHackCheckinTests;
+			productReference = C48ACE541BBF91970060FFC9 /* SDHackCheckinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C48ACE5E1BBF91970060FFC9 /* SDHackCheckinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C48ACE6E1BBF91980060FFC9 /* Build configuration list for PBXNativeTarget "SDHackCheckinUITests" */;
+			buildPhases = (
+				C48ACE5B1BBF91970060FFC9 /* Sources */,
+				C48ACE5C1BBF91970060FFC9 /* Frameworks */,
+				C48ACE5D1BBF91970060FFC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C48ACE611BBF91970060FFC9 /* PBXTargetDependency */,
+			);
+			name = SDHackCheckinUITests;
+			productName = SDHackCheckinUITests;
+			productReference = C48ACE5F1BBF91970060FFC9 /* SDHackCheckinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C48ACE331BBF91960060FFC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = liwei;
+				TargetAttributes = {
+					C48ACE3A1BBF91960060FFC9 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 82R3ZDW365;
+					};
+					C48ACE531BBF91970060FFC9 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 82R3ZDW365;
+						TestTargetID = C48ACE3A1BBF91960060FFC9;
+					};
+					C48ACE5E1BBF91970060FFC9 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 82R3ZDW365;
+						TestTargetID = C48ACE3A1BBF91960060FFC9;
+					};
+				};
+			};
+			buildConfigurationList = C48ACE361BBF91960060FFC9 /* Build configuration list for PBXProject "SDHackCheckin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C48ACE321BBF91960060FFC9;
+			productRefGroup = C48ACE3C1BBF91960060FFC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C48ACE3A1BBF91960060FFC9 /* SDHackCheckin */,
+				C48ACE531BBF91970060FFC9 /* SDHackCheckinTests */,
+				C48ACE5E1BBF91970060FFC9 /* SDHackCheckinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C48ACE391BBF91960060FFC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48ACE4E1BBF91970060FFC9 /* LaunchScreen.storyboard in Resources */,
+				C48ACE4B1BBF91970060FFC9 /* Assets.xcassets in Resources */,
+				C48ACE491BBF91960060FFC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C48ACE521BBF91970060FFC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C48ACE5D1BBF91970060FFC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C48ACE371BBF91960060FFC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48ACE461BBF91960060FFC9 /* ViewController.m in Sources */,
+				C48ACE431BBF91960060FFC9 /* AppDelegate.m in Sources */,
+				C48ACE401BBF91960060FFC9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C48ACE501BBF91970060FFC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48ACE591BBF91970060FFC9 /* SDHackCheckinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C48ACE5B1BBF91970060FFC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48ACE641BBF91980060FFC9 /* SDHackCheckinUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C48ACE561BBF91970060FFC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C48ACE3A1BBF91960060FFC9 /* SDHackCheckin */;
+			targetProxy = C48ACE551BBF91970060FFC9 /* PBXContainerItemProxy */;
+		};
+		C48ACE611BBF91970060FFC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C48ACE3A1BBF91960060FFC9 /* SDHackCheckin */;
+			targetProxy = C48ACE601BBF91970060FFC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C48ACE471BBF91960060FFC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C48ACE481BBF91960060FFC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C48ACE4C1BBF91970060FFC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C48ACE4D1BBF91970060FFC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C48ACE661BBF91980060FFC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C48ACE671BBF91980060FFC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C48ACE691BBF91980060FFC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SDHackCheckin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liwei.SDHackCheckin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C48ACE6A1BBF91980060FFC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SDHackCheckin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liwei.SDHackCheckin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C48ACE6C1BBF91980060FFC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SDHackCheckinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liwei.SDHackCheckinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDHackCheckin.app/SDHackCheckin";
+			};
+			name = Debug;
+		};
+		C48ACE6D1BBF91980060FFC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SDHackCheckinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liwei.SDHackCheckinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDHackCheckin.app/SDHackCheckin";
+			};
+			name = Release;
+		};
+		C48ACE6F1BBF91980060FFC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SDHackCheckinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liwei.SDHackCheckinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SDHackCheckin;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C48ACE701BBF91980060FFC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SDHackCheckinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liwei.SDHackCheckinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SDHackCheckin;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C48ACE361BBF91960060FFC9 /* Build configuration list for PBXProject "SDHackCheckin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C48ACE661BBF91980060FFC9 /* Debug */,
+				C48ACE671BBF91980060FFC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C48ACE681BBF91980060FFC9 /* Build configuration list for PBXNativeTarget "SDHackCheckin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C48ACE691BBF91980060FFC9 /* Debug */,
+				C48ACE6A1BBF91980060FFC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C48ACE6B1BBF91980060FFC9 /* Build configuration list for PBXNativeTarget "SDHackCheckinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C48ACE6C1BBF91980060FFC9 /* Debug */,
+				C48ACE6D1BBF91980060FFC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C48ACE6E1BBF91980060FFC9 /* Build configuration list for PBXNativeTarget "SDHackCheckinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C48ACE6F1BBF91980060FFC9 /* Debug */,
+				C48ACE701BBF91980060FFC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C48ACE331BBF91960060FFC9 /* Project object */;
+}
